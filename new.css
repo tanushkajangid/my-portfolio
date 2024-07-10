@@ -1,0 +1,327 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #0a0a23;
+    color: #fff;
+    width: 100%;
+}
+
+header {
+    background-color: #1a1a40;
+    padding: 10px 10px;
+    position: relative;
+    width: 100%;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style:none;
+    padding: 0;
+    
+}
+
+nav ul li {
+    margin: 30px 50px;
+    font-size: 20px;
+    
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: solid;
+}
+
+
+.hero-section .photo-container img {
+    border-radius: 50%;
+    border-style: double;
+    box-sizing: border-box;
+    border: 2px solid white; 
+    margin-left: 100px;
+    margin-right: 0;
+    height: 400px;
+    width: 400px;
+    align-items: center;
+    float: right;
+    
+}
+
+.hero-section {
+    display: flex;
+    text-align: center;
+    padding: 100px 300px ;
+}
+
+.hero-section h2 {
+    font-size: 2em;
+    text-align: left;
+    
+}
+
+.hero-section h1{
+    position: relative;
+    color: #3f3fff;
+    font-size: 4em;
+    margin-bottom: 0px;
+    text-align: left;
+    animation: typing 3s  forwards infinite ;
+    overflow: hidden;
+    width: 0;
+    
+}
+@keyframes  typing{
+    from{ width: 0;}
+    to{ width: 100%;}
+    
+}
+
+
+
+.about-section {
+    font-size: 20px;
+    display: flex;
+    justify-content: right;
+    padding: 50px 50px;
+}
+
+.about-content {
+    display: flex;
+    align-items: center;
+    width: 90%;
+}
+
+.about-content img {
+    border-radius: 50%;
+    border-style: double;
+    box-sizing: border-box;
+    border: 2px solid white; 
+    margin-right: 50px;
+    height: 400px;
+    width: 400px;
+    display: inline-block;
+    align-items: left;
+}
+
+
+.about-text {
+    max-width: 800px;
+}
+
+.about-text h2 {
+    font-size: 2em;
+    margin-bottom: 50px;
+}
+
+.about-text p {
+    margin-bottom: 50px;
+}
+
+.about-text .btn {
+    background-color: #3f3fff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 1em;
+    margin-right: 50px;
+}
+
+.about-text .btn:hover{
+    background:  rgb(30, 7, 238);
+    color: white;
+    transition: 0.2s;
+ }
+
+.projects-section {
+    text-align: center;
+    padding: 80px 0px;
+}
+
+.projects-section h2 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+
+.projects {
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.project {
+    background-color: #1a1a40;
+    margin: 50px;
+    padding: 50px;
+    border-radius: 10px;
+    width: 600px;
+    text-align: center;
+}
+
+.project h3 {
+    font-size: 1.75em;
+    margin-bottom: 20px;
+}
+
+.project img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.project:hover{
+
+    background:  rgb(63, 162, 255);
+    color: white;
+    transition: 0.2s;
+ }
+
+
+.contact{
+    width: 100%;
+    height: auto;
+    padding: 10px 50px 100px 100px;
+    text-align: center;
+    background-color:none;
+
+ }
+
+ .contact p{
+    margin-bottom: 100px;
+    color: white;
+    font-size: 30px;
+
+ }
+
+ .contact h2{
+    color: white;
+    font-size: 2.5em;
+
+ }
+ .contact-form{
+    max-height: 500px;
+    display:flex;
+    
+    max-width: 500px;
+    margin: 0 auto;
+    color: white;
+ }
+
+ .contact-details label{
+    display: flex;
+    flex-direction: row;
+    width: 500px;
+    float: right;
+
+ }
+
+ .message textarea{
+    border-radius: 5px;
+    border: 10px;
+    column-gap: 100px;
+    column-width:100 ;
+ }
+
+ .contact-details{
+    flex: 1;
+    margin-right: 50px; 
+    text-align: left;
+    margin-bottom: 10px;
+    
+
+ }
+
+ .contact-details input{
+    
+    width: 500px;
+    border-radius: 5px;
+    border: 0px;
+    padding: 15px 10px;
+    margin-bottom: 30px;
+    
+
+
+ }
+
+ .contact-details .message textarea{
+    
+    width: 500px;
+    border-radius: 5px;
+    border: 0px;
+    padding: 15px 10px;
+    margin-bottom: 30px;
+
+
+ }
+
+ .message button{
+    color: white;
+    border: 0;
+    border-radius: 5px;
+    background: #3f3fff;
+    width: 140px;
+    height: 40px;
+    margin-top: 10px;
+    margin-left: auto ;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+    position: relative;
+ }
+
+ .message button:hover{
+    background:  rgb(30, 7, 238);
+    color: white;
+    transition: 0.2s;
+ }
+
+ footer {
+    background-color: #1a1a40;
+    padding: 20px 0;
+    text-align: center;
+    color: white;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: row;
+}
+
+.social-media {
+    margin-bottom: 10px;
+    float: left;
+}
+
+.social-media a img {
+    width: 30px;
+    height: 30px;
+    margin: 0 100px;
+    transition: transform 0.3s;
+    float: left;
+}
+
+.social-media a img:hover {
+    transform: scale(1.2);
+}
+
+.contact-info p {
+    margin: 5px 0;
+}
+.contact-info .A {
+    margin: 5px 0;
+    float: right;
+}
+.contact-info .B {
+    margin: 5px 200px;
+    float: right;
+}
+.contact-info .B a {
+    color: white;
+    
+}
+.contact-info .B a:hover {
+    transform: scale(1.2);
+    color: rgb(30, 7, 238);
+}
